@@ -1,6 +1,6 @@
 """
 Autor: Georgina Castorena
-Fecha: [Fecha de creación o última modificación]
+Fecha: 04/04/2025
 Proyecto: VisionMedic - Detección de fatiga mediante análisis facial
 
 Descripción:
