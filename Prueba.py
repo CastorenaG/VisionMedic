@@ -1,3 +1,16 @@
+"""
+Autor: Georgina Castorena
+Fecha: 04/04/2025
+Proyecto: VisionMedic - Detección de fatiga mediante análisis facial
+
+Descripción:
+Este script forma parte del proyecto VisionMedic, una solución basada en visión por computadora para
+evaluar el nivel de fatiga en rostros humanos a través del análisis de imágenes. El código utiliza redes 
+neuronales convolucionales (CNN) y técnicas de preprocesamiento facial con DeepFace, además de datasets especializados.
+
+Este codigo evalúa el modelo entrenado, calcula métricas de desempeño y muestra visualizaciones.
+"""
+
 import numpy as np
 import tensorflow as tf
 import os
