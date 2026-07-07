@@ -2,11 +2,11 @@
 
 Este proyecto fue desarrollado como parte del programa de innovación tecnológica impartido por **Samsung Innovation Campus** en colaboración con la **Universidad de Monterrey (UDEM)**.
 
-## 🎯 Objetivo
+## Objetivo
 
 El objetivo principal de VisionMedic es **mejorar la seguridad del paciente** mediante la **detección no invasiva de signos de fatiga y estrés** en los médicos, contribuyendo así a la **optimización de la atención médica**.
 
-## 🧠 ¿Cómo funciona?
+## ¿Cómo funciona?
 
 VisionMedic utiliza redes neuronales convolucionales (CNN) y modelos de visión por computadora para analizar expresiones faciales y otros indicadores biométricos. El sistema:
 
@@ -15,14 +15,14 @@ VisionMedic utiliza redes neuronales convolucionales (CNN) y modelos de visión 
 - Proporciona retroalimentación antes de que el médico entre a cirugía.
 - Funciona como herramienta **continua y no invasiva** para mejorar la toma de decisiones clínicas.
 
-## 💡 Beneficios
+## Beneficios
 
-- ✅ Mejora la seguridad en quirófano.
-- ✅ Promueve el bienestar del personal médico.
-- ✅ Integra IA de manera ética y responsable en entornos clínicos.
-- ✅ Apoya decisiones en tiempo real sin interferir con el flujo de trabajo hospitalario.
+- Mejora la seguridad en quirófano.
+- Promueve el bienestar del personal médico.
+- Integra IA de manera ética y responsable en entornos clínicos.
+- Apoya decisiones en tiempo real sin interferir con el flujo de trabajo hospitalario.
 
-## 🧪 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - Python
 - OpenCV
@@ -31,7 +31,7 @@ VisionMedic utiliza redes neuronales convolucionales (CNN) y modelos de visión 
 - CNN (Convolutional Neural Networks)
 - Dataset: AffectNet, UTA-RLDD, Face Mask Detection Dataset
 
-📂 Datasets Utilizados
+ Datasets Utilizados
 1. AffectNet
 Descripción general: AffectNet es uno de los conjuntos de datos más grandes y completos para el análisis de emociones faciales. Contiene más de 1 millón de imágenes de rostros humanos, obtenidas mediante búsquedas en internet y etiquetadas automáticamente y manualmente.
 
@@ -46,7 +46,7 @@ Etiquetas: Las anotaciones están divididas por niveles de alerta, incluyendo al
 
 Referencia: Vural, E., Cetin, M., & Littlewort, G. (2019). Real-life Drowsiness Detection Dataset: Collection and Analysis. IEEE International Conference on Automatic Face and Gesture Recognition (FG).
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 VisionMedic/ 
 │ ├── preprocessing.py # Script de preprocesamiento con DeepFace y etiquetas manuales 
 ├── train_cnn.py # Entrenamiento del modelo CNN con salida de regresión 
@@ -58,7 +58,7 @@ VisionMedic/
 │ └── README.md # Documentación del proyecto (este archivo)
 
 
-## 🧠 Tecnologías y Librerías
+##  Tecnologías y Librerías
 - Python 3.8+
 - [DeepFace](https://github.com/serengil/deepface)
 - OpenCV
@@ -67,8 +67,8 @@ VisionMedic/
 - scikit-learn
 
 
-##🚀 Fases del Proyecto
-🔹 Fase 1: Preprocesamiento de Imágenes
+##Fases del Proyecto
+ Fase 1: Preprocesamiento de Imágenes
 Script: Preprocesamiento.py
   Objetivo:    
     -Detectar rostros con DeepFace.
@@ -79,7 +79,7 @@ Script: Preprocesamiento.py
     -y.npy: Etiquetas numéricas.
     -labels.csv: Relación imagen-etiqueta.
 
-🔹 Fase 2: Entrenamiento del Modelo
+ Fase 2: Entrenamiento del Modelo
 Script: CNN.py
   Objetivo:
     -Entrenar una red neuronal convolucional (CNN) con salida de regresión.
@@ -87,15 +87,14 @@ Script: CNN.py
 Modelo guardado:
     -fatigue_model.h5: Archivo del modelo entrenado.
 
-🔹 Fase 3: Evaluación y Pruebas
+ Fase 3: Evaluación y Pruebas
   Script: Prueba.py
   Objetivo:
     -Cargar el modelo entrenado.
     -Evaluar el desempeño con métricas como Accuracy, Precisión,  Recall (Sensibilidad),  F1-Score.
     -Visualizar predicciones vs. valores reales.
 
-
-🎯 Futuras Mejoras
+ Futuras Mejoras
 Integración con video en tiempo real.
 
 Consideración del uso de cubrebocas y equipo quirúrgico.
@@ -104,9 +103,9 @@ Entrenamiento con datasets clínicos reales y etiquetado profesional.
 
 Panel clínico para visualización rápida del estado del equipo médico.
 
-👨‍⚕️ Contribución
+ Contribución
 Este proyecto fue desarrollado por Georgina Elizabeth Castorena Rojas, como parte del curso de Samsung Innovation Campus - UDEM 2024 con el objetivo de aplicar lo aprendido a través del curso inteligencia artificial y liderazgo , junto con herramientas tecnológicas responsables y humanas.
 
-📄 Licencia
+ Licencia
 Este proyecto es de uso académico. Para uso comercial, por favor contacta al equipo desarrollador.
 
